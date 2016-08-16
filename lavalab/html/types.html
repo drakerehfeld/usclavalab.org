@@ -2,6 +2,10 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<style>
+		img{
+			max-height: 150px;
+			margin: 0 auto;
+		}
 		.header2{
 			font-size: 42px;
 			font-family: "Open Sans", helvetica;
@@ -10,9 +14,20 @@
 			font-size: 36px;
 			font-family: "Open Sans", helvetica;
 		}
+		.header5{
+			font-size: 22px;
+			font-family: "Open Sans", helvetica;
+		}
 		.body-text{
 			font-size: 18px;
 			font-family: "Open Sans", helvetica;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		@media only screen and (max-width: 760px) {
+		    #description-text {
+		        display: none;
+		    }
 		}
 	</style>
 </head>
@@ -25,27 +40,31 @@
 			</div>
 			<br/>
 			<div class="row text-center">
-				<div class="col-xs-4">
+				<div class="col-sm-4">
 					<img src="./assets/images/designer.png" class="img-responsive"/>
 					<div class="header">designer</div>
-					<p class="body-text">
+					<p id="description-text" name="description-text" class="body-text">
 						Passionate about UX and Design Thinking? Know the fundamentals of AI/PS? We'd love to bring you onto a team to design both software and hardware. Grow your portfolio and sharpen your design senses.
 					</p>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-sm-4">
 					<img src="./assets/images/developer.png" class="img-responsive"/>
 					<div class="header">developer</div>
-					<p class="body-text">
+					<p id="description-text" name="description-text" class="body-text">
 						Swift? NodeJS? Django? Arduino? Makerbot? We love it all. If you've talent in building great hardware or software projects, apply to be a developer. You'll perfect your skills with real-world experience.
 					</p>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-sm-4">
 					<img src="./assets/images/production.png" class="img-responsive"/>
 					<div class="header">product</div>
-					<p class="body-text">
+					<p id="description-text" name="description-text" class="body-text">
 						Our product members bring together the rest of the team: they create marketing campaigns, plan user acquisition, and perfect financial reports. Product members help push the project into a functioning business as the semester-long curriculum culminates.
 					</p>
 				</div>
+				<br/>
+				<p id="description-text" name="description-text" class="header5">
+					But, all of our members learn the skills of the other roles! We want to make sure everyone leaves LavaLab with a diverse toolkit to be applied to later projects in life.
+				</p>
 			</div>
 		</div>
 	</div>
