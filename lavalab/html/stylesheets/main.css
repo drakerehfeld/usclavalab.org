@@ -245,6 +245,58 @@ img.arrow-down {
     padding: 0; }
 
 /*  *******************************************************************
+  ROLES BLURB
+  *******************************************************************/
+.roles-separate{
+  background: #383838;
+  height: 20px;
+}
+.roles-blurb {
+  background: white;
+  padding: 50px 0;
+  position: relative;
+  z-index: 3; }
+
+.roles-img {
+  max-width: 300px;
+}
+
+.roles-table  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roles-blurb-container {
+  width: 95%;
+  margin: 3.125% auto;
+  border: 0px solid #383838; }
+
+.roles-blurb-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+  color: #383838;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 4.0em;
+  text-align: center;
+  line-height: 1.25em; }
+
+.roles-blurb-content-paragraph {
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0;
+  color: #383838;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 35px; }
+
+.roles-blurb-content .button {
+    font-size: 0.30em;
+    padding: 0; }
+
+/*  *******************************************************************
   ABOUT BLURB
   *******************************************************************/
 
