@@ -188,6 +188,9 @@ a {
 .foot{
   background-color: #f79320;
   height: 100px;
+  text-align: center;
+  font-family: "Open Sans", helvetica;
+  padding-top: 10px;
 }
 
 .navbar{
@@ -269,6 +272,27 @@ a {
 /*  *******************************************************************
 	BUTTONS
 	*******************************************************************/
+.social-button {
+  width: 200px;
+  margin: 30px auto 0 auto;
+  /*padding: 20px 20px;*/
+  color: inherit;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: none;
+  border: none;
+  outline: none;
+  /*display: block;*/
+  /*position: relative;*/
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+
 .button {
   width: 200px;
   margin: 30px auto 0 auto;
