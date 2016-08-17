@@ -103,17 +103,27 @@ a {
   font-family: "Open Sans", helvetica;
 }
 
-.parallax{
+.parallax-orange{
   font-size: 34px;
   color: white;
-  font-family: "Open Sans", helvetica;
-  background-color: rgba(247,147,32,.75);
+  /*font-family: "Open Sans", helvetica;*/
+  font-family: "Montserrat", Arial, sans-serif;
+  /*background-color: rgba(247,147,32,.75);*/
   padding: 5px;
-  }
+}
+
+.parallax-grey{
+  font-size: 34px;
+  color: white;
+  /*font-family: "Open Sans", helvetica;*/
+  font-family: "Montserrat", Arial, sans-serif;
+  /*background-color: rgba(56,56,56,.75);*/
+  padding: 5px;
+}
 
 .parallax-curriculum { 
     /* The image used */
-    background-image: url("../assets/images/photos/2014-fall/dinner-nights/0001-setup.jpg");
+    background-image: url("../assets/images/home-images/curriculum.png");
 
     /* Set a specific height */
     height: 30%;
@@ -126,12 +136,12 @@ a {
     display:flex;
     justify-content: center;
     align-items:center;
-    padding-bottom: 8%;
+    /*padding-bottom: 8%;*/
 }
 
 .parallax-dinner { 
     /* The image used */
-    background-image: url("../assets/images/photos/2014-fall/dinner-nights/elon.jpg");
+    background-image: url("../assets/images/home-images/firesidechats.png");
 
     /* Set a specific height */
     height: 30%;
@@ -142,14 +152,14 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
-    justify-content: flex-end;
-    padding-right: 8%;
+    justify-content: center;
     align-items:center;
+    /*padding-bottom: 8%;*/
 }
 
 .parallax-workshop { 
     /* The image used */
-    background-image: url("../assets/images/photos/2014-fall/workshops/0001-john-bates.jpg");
+    background-image: url("../assets/images/home-images/workshops.png");
 
     /* Set a specific height */
     height: 30%;
@@ -160,14 +170,14 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
-    justify-content: flex-start;
-    padding-left: 9%;
+    justify-content: center;
     align-items:center;
+    /*padding-bottom: 8%;*/
 }
 
 .parallax-demo { 
     /* The image used */
-    background-image: url("../assets/images/photos/2014-fall/demo-night/0002-demo-night-table.jpg");
+    background-image: url("../assets/images/home-images/demonight.png");
 
     /* Set a specific height */
     height: 30%;
@@ -179,10 +189,8 @@ a {
     background-size: cover;
     display:flex;
     justify-content: center;
-    justify-content: flex-start;
-    padding-left: 8%;
-    padding-bottom: 5%;
     align-items:center;
+    /*padding-bottom: 8%;*/
 }
 
 .foot{
