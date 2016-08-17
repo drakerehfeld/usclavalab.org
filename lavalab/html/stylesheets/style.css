@@ -195,9 +195,10 @@ a {
 
 .foot{
   background-color: #f79320;
-  height: 100px;
+  min-height: 100px;
   text-align: center;
-  font-family: "Open Sans", helvetica;
+  /*font-family: "Open Sans", helvetica;*/
+  font-family: "Montserrat", Arial, sans-serif;
   padding-top: 10px;
 }
 
