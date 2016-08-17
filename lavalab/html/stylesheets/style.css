@@ -203,7 +203,7 @@ a {
   font-family: "Open Sans", helvetica;
   font-size: 40px;
   color: #FFFFFF;
-  padding-top: 25%;
+  padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -215,6 +215,10 @@ a {
   left: 0; right: 0; bottom: 10;
   width: auto;
   margin: 0 auto;
+}
+
+.padB{
+  padding-bottom: 50px;
 }
 
 .title-img{
