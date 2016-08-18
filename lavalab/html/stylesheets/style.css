@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "Open Sans";
-  src: url("../assets/fonts/open-sans/OpenSans-Regular.ttf") format("truetype"); }
-@font-face {
-  font-family: "Open Sans Bold";
-  src: url("../assets/fonts/open-sans/OpenSans-Bold.ttf") format("truetype"); }
-@font-face {
   font-family: "Montserrat";
   src: url("../assets/fonts/montserrat/Montserrat-Bold.ttf") format("truetype"); }
 
@@ -63,14 +57,12 @@ a {
   padding-top: 50px;
   padding-right: 10%;
   text-align: center;
-  font-family: "Open Sans", helvetica;
 }
 
 .content-pad-head{
   font-size: 38px;
   padding-top: 50px;
   text-align: center;
-  font-family: "Open Sans", helvetica;
 }
 
 .content-pad-description{
@@ -94,19 +86,16 @@ a {
 .dark-bg{
   background-color: #383838;
   color: #FFFFFF;
-  font-family: "Open Sans", helvetica;
 }
 
 .light-bg{
   background-color: #efefef;
   color: #383838;
-  font-family: "Open Sans", helvetica;
 }
 
 .parallax-orange{
   font-size: 34px;
   color: white;
-  /*font-family: "Open Sans", helvetica;*/
   font-family: "Montserrat", Arial, sans-serif;
   /*background-color: rgba(247,147,32,.75);*/
   padding: 5px;
@@ -115,7 +104,6 @@ a {
 .parallax-grey{
   font-size: 34px;
   color: white;
-  /*font-family: "Open Sans", helvetica;*/
   font-family: "Montserrat", Arial, sans-serif;
   /*background-color: rgba(56,56,56,.75);*/
   padding: 5px;
@@ -197,19 +185,16 @@ a {
   background-color: #f79320;
   min-height: 100px;
   text-align: center;
-  /*font-family: "Open Sans", helvetica;*/
   font-family: "Montserrat", Arial, sans-serif;
   padding-top: 10px;
 }
 
 .navbar{
-  font-family: "Open Sans", helvetica;
   font-size: 14px;
   text-align: center;
 }
 
 .title{
-  font-family: "Open Sans", helvetica;
   font-size: 40px;
   color: #FFFFFF;
   padding-top: 10%;
@@ -260,19 +245,15 @@ a {
 }
 .role-header2{
   font-size: 42px;
-  font-family: "Open Sans", helvetica;
 }
 .role-header{
   font-size: 36px;
-  font-family: "Open Sans", helvetica;
 }
 .role-header5{
   font-size: 22px;
-  font-family: "Open Sans", helvetica;
 }
 .role-body-text{
   font-size: 18px;
-  font-family: "Open Sans", helvetica;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -494,7 +475,6 @@ a {
 }
 .modal-content {
   font-size: 1.15em;
-  font-family: "Open Sans", Arial, sans-serif;
   line-height: 28px;
 
   position: relative;
