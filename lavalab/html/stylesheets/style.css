@@ -44,6 +44,7 @@ a {
 .logo-head-img{
   max-height: 75px;
   padding-left: 60px;
+  max-width: 300px;
 }
 
 .advisory-img{
@@ -216,9 +217,9 @@ a {
 }
 
 .title-img{
-  /*max-width: 500px;*/
   display:block;
   margin:auto;
+  max-height: 120px;
 }
 
 .img-center{
