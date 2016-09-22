@@ -94,17 +94,17 @@ a {
   transition: all 0.3s; }
 
 .button-default {
-  color: #f79320;
-  border: 3px solid #f79320; }
+  color: #FF6F00;
+  border: 3px solid #FF6F00; }
   .button-default:hover, .button-default:active {
     color: #efefef;
-    background: #f79320; }
+    background: #FF6F00; }
 
 .button-alternate {
   color: #efefef;
   border: 3px solid #efefef; }
   .button-alternate:hover, .button-alternate:active {
-    color: #f79320;
+    color: #FF6F00;
     background: #efefef; }
 
 .btn-2:hover,
@@ -336,7 +336,7 @@ img.arrow-down {
 .our-projects {
   padding: 50px 0;
   overflow: auto;
-  color: #f79320;
+  color: #FF6F00;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 2em;
   text-align: center;
@@ -468,7 +468,7 @@ div.project-grid {
   background-color: #efefef;
   overflow: auto; }
   .our-team h3 {
-    color: #f79320;
+    color: #FF6F00;
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 2em;
     text-align: center;
@@ -554,7 +554,7 @@ div.project-grid {
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 2em;
     margin-bottom: 40px;
-    color: #f79320;
+    color: #FF6F00;
     text-align: center;
     text-transform: uppercase; }
 
@@ -564,7 +564,7 @@ div.project-grid {
   text-align: center;
   background-size: cover;
   background-position: center center;
-  background-color: #f79320;
+  background-color: #FF6F00;
   border-top: 1px solid #b4b4b4;
   border-bottom: 1px solid #b4b4b4;
   display: block;
@@ -598,7 +598,7 @@ div.project-grid {
 
 .press-item:hover {
   color: white;
-  background-color: #f79320;
+  background-color: #FF6F00;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;

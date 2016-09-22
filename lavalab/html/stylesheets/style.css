@@ -28,7 +28,7 @@ a {
   }
 
 .head{
-  background-color: #f79320;
+  background-color: #FF6F00;
   height: 22px;
 }
 
@@ -182,7 +182,7 @@ a {
 }
 
 .foot{
-  background-color: #f79320;
+  background-color: #FF6F00;
   min-height: 100px;
   text-align: center;
   font-family: "Montserrat", Arial, sans-serif;
@@ -309,17 +309,17 @@ a {
   transition: all 0.3s; }
 
 .button-default {
-  color: #f79320;
-  border: 3px solid #f79320; }
+  color: #FF6F00;
+  border: 3px solid #FF6F00; }
   .button-default:hover, .button-default:active {
     color: #efefef;
-    background: #f79320; }
+    background: #FF6F00; }
 
 .button-alternate {
   color: #efefef;
   border: 3px solid #efefef; }
   .button-alternate:hover, .button-alternate:active {
-    color: #f79320;
+    color: #FF6F00;
     background: #efefef; }
 
 .btn-2:hover,
@@ -509,7 +509,7 @@ a {
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857143px;
 
-  background: #F79320;
+  background: #FF6F00;
 }
 .modal-header .close {
   margin-top: -2px;
