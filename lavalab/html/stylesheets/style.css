@@ -27,6 +27,11 @@ a {
     text-decoration: none; 
   }
 
+.head-alert{
+  background-color: #FF6F00;
+  /*height: 22px;*/
+}
+
 .head{
   background-color: #FF6F00;
   height: 22px;
@@ -78,6 +83,10 @@ a {
 .half{
   min-height: 50%;
   padding-top: 50px;
+}
+
+.top-alert{
+  background-color: #FF6F00;
 }
 
 .top{
@@ -220,6 +229,18 @@ a {
   display:block;
   margin:auto;
   max-height: 120px;
+}
+
+.title-img-alert{
+  /*display:block;*/
+  /*margin:auto;*/
+  max-height: 120px;
+}
+
+.teams{
+  display:block;
+  margin:auto;
+  max-height: 500px;
 }
 
 .img-center{
