@@ -15,4 +15,4 @@ To add your team to the [portfolio page](http://usclavalab.org/portfolio.html):
   - Transparent Background
   - PNG of less than 100kb (but smaller is better)
   - Square aspect ratio. This means you might have to stick your logo into a new PSD that is square and export that.
-- Push your code, submit a pull request. Drake or Sagar will merge it with master.
+- Push your code using ```$git push origin [branchname]```, then submit a pull request on github.com. Drake or Sagar will merge it with master.
