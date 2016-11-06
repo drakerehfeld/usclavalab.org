@@ -38,7 +38,8 @@ a {
 }
 
 .portfolio-img{
-  padding: 5px
+  padding: 5px;
+  max-height: 200px;
 }
 
 .logo-head-img{
