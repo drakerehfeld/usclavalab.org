@@ -40,6 +40,7 @@ a {
 .portfolio-img{
   padding: 5px;
   max-height: 200px;
+  margin: 0 auto;
 }
 
 .logo-head-img{
