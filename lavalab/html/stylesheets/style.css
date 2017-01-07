@@ -582,3 +582,8 @@ a {
   margin-right: auto;
 }
 
+.text-wrapper{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
